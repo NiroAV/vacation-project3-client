@@ -1,0 +1,25 @@
+.Home .fade-in h1{
+    font-size: 6rem;
+    font-weight: bolder;
+    padding: 60px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.Home .fade-in p{
+    font-weight: bolder;
+    margin-left: 150px;
+    white-space: pre-line;
+}
+
+.fade-in {
+    transition: opacity 1s ease;
+}
+
+
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+

@@ -1,0 +1,23 @@
+.VacationList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 50px;
+    margin-top: 40px;   
+}
+
+.VacationList > a {
+	position: absolute;
+    right: 20px;
+    text-decoration: none;
+}
+
+.VacationList .add-btn {
+    margin-bottom: -25px;
+    padding: 15px;
+}
+
+.VacationList .card{
+    margin-bottom: 20px;
+    margin: 30px;
+}

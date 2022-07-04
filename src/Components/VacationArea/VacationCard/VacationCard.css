@@ -1,0 +1,107 @@
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 600px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #7D9CB8;
+    border-radius: 5px;
+}
+
+.card-img-top{
+    position: absolute;
+    width: 299px;
+    height: 220px;
+    left: 0px;
+    border-radius: 2px 2px 0px 2px;
+
+}
+.card-title{
+    position: relative;
+    top: 230px;
+    
+}
+
+.card-title > h3{
+    font-weight: bolder;
+}
+
+.card-text{
+    margin-top: 2.5px;
+    width: 227px;
+    height: 41px;
+    position: relative;
+    font-weight: bold;
+    font-size: small;
+    color: #000000;
+    text-align: center;
+    overflow: auto;
+    word-break: break-word;
+    top: 220px;
+    left: 13px;
+}
+
+.dates{
+    margin-top: 2.5px;
+    width: 227px;
+    height: 41px;
+    position: relative;
+    font-weight: bold;
+    font-size: small;
+    color: #969696;
+    text-align: center;
+    overflow: auto;
+    word-break: break-word;
+    top: 315px;
+    left: 13px;
+}
+
+.price{
+    position: absolute;
+    top: 409px;
+    left: 127px;
+    font-weight: bold;
+}
+
+.followers{
+    position: absolute;
+    top: 450px;
+    left: 105px;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+
+.watch-list{
+    position: relative;
+    top: 366px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.blueBg{
+    background-color:rgb(255, 255, 255);
+   color: red;
+   
+}
+
+
+.edit-btn {
+    border: none;
+    position: relative;
+}
+
+.delete-edit-btn{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+

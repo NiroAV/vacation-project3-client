@@ -1,0 +1,30 @@
+
+.UpdateVacation{
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+}
+
+.UpdateVacation > form {
+	width: 250px;
+}
+
+.UpdateVacation input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.UpdateVacation button {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.validate-check{
+    position: fixed;
+    color: red;
+    margin-left: 270px;
+    margin-top: -60px;
+}

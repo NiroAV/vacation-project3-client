@@ -1,0 +1,54 @@
+.Navbar {
+	position: relative;
+	padding: 30px;
+	width: 20px;
+}
+
+.vacations-head-font{
+	position: absolute;
+	color: white;
+	font-weight: bolder;
+	transition: all .2s ease-in-out;
+}
+
+.vacations-head-font:hover{
+	color: rgb(9, 9, 154);
+	transform: scale(1.02);
+}
+
+.home-head-font{
+	position: absolute;
+	font-weight: bolder;
+	color:white;
+	margin-left: 200px;
+	margin-top: 10px;
+	
+}
+
+.graph-head{
+	position: absolute;
+	font-weight: bolder;
+	color:white;
+	margin-left: 300px;
+	margin-top: 10px;
+}
+
+.add-vacation-head{
+	position: absolute;
+	font-weight: bolder;
+	color:white;
+	margin-left: 400px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+
+.nav-bar{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.nav-bar button{
+	border:none;
+	background-color: rgb(5, 5, 69);
+}

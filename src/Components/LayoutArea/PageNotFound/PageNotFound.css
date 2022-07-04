@@ -1,0 +1,29 @@
+.PageNotFound {
+	font-family: bolder;
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.PageNotFound > h1 {
+    font-size: 6rem;
+}
+
+.PageNotFound > h3 {
+    font-size: 2rem;
+}
+
+.PageNotFound > p {
+    font-size: 1rem;
+}
+
+.PageNotFound > img{
+    width: 120px;
+}
+
+
+
+
